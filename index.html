@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jose María Salas · AI Leader &amp; Fractional CTO</title>
+<meta name="description" content="Jose María Salas, AI leader and fractional CTO. 20+ years across applied AI, robotics and business intelligence in London, Tokyo and Madrid.">
+<meta property="og:title" content="Jose María Salas · AI Leader &amp; Fractional CTO">
+<meta property="og:description" content="20+ years across applied AI, robotics and business intelligence · London, Tokyo, Madrid. Available for remote roles and hybrid anywhere in the UK or Europe.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://demadriz.com/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F6F7F4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101318" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='34' fill='none' stroke='%232C46C8' stroke-width='12' stroke-dasharray='18 12'/%3E%3Ccircle cx='50' cy='50' r='12' fill='%232C46C8'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F6F7F4;
+    --ink: #14181C;
+    --slate: #5A6472;
+    --cobalt: #2C46C8;
+    --cobalt-soft: #E4E8FA;
+    --line: #D8DCD9;
+    --card: #FFFFFF;
+    --live: #1E8A4C;
+    --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #101318;
+      --ink: #E8EAE6;
+      --slate: #98A1AC;
+      --cobalt: #8B9DFF;
+      --cobalt-soft: #1C2340;
+      --line: #2A2F36;
+      --card: #171B21;
+      --live: #4CC583;
+    }
+  }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--cobalt); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--cobalt);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .wrap { max-width: 60rem; margin: 0 auto; padding-left: 1.5rem; padding-right: 1.5rem; }
+  .mono {
+    font-family: var(--font-mono);
+    font-size: 0.86rem;
+    letter-spacing: 0.03em;
+    color: var(--slate);
+  }
+
+  /* ── Hero ─────────────────────────────── */
+  header { padding: 4.5rem 0 1.5rem; }
+  .waypoint-log {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.4rem;
+    margin-bottom: 2.75rem;
+  }
+  .waypoint-log span { white-space: nowrap; }
+  .waypoint-log .here { color: var(--cobalt); }
+  h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.6rem, 7vw, 4.6rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    max-width: 20ch;
+  }
+  h1 .accent { color: var(--cobalt); }
+  .thesis {
+    margin-top: 1.5rem;
+    max-width: 44ch;
+    font-size: clamp(1.1rem, 2.2vw, 1.3rem);
+    line-height: 1.5;
+    color: var(--slate);
+  }
+  .thesis strong { color: var(--ink); font-weight: 600; }
+  .status {
+    margin-top: 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.86rem;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.45rem 1rem;
+    background: var(--card);
+  }
+  .status::before {
+    content: "";
+    width: 0.55rem; height: 0.55rem;
+    border-radius: 50%;
+    background: var(--live);
+    flex: none;
+    animation: pulse-live 2.6s ease-in-out infinite;
+  }
+  @keyframes pulse-live {
+    0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--live) 45%, transparent); }
+    55% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--live) 0%, transparent); }
+  }
+  @keyframes pulse-now {
+    0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--cobalt) 40%, transparent); }
+    55% { box-shadow: 0 0 0 7px color-mix(in srgb, var(--cobalt) 0%, transparent); }
+  }
+  .actions { margin-top: 1.6rem; display: flex; flex-wrap: wrap; gap: 0.75rem; }
+  .btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.65rem 1.3rem;
+    border-radius: 6px;
+    border: 1.5px solid var(--cobalt);
+  }
+  .btn.primary { background: var(--cobalt); color: var(--paper); }
+  .btn.primary:hover { text-decoration: none; filter: brightness(1.1); }
+  .btn.ghost { color: var(--cobalt); }
+  .btn.ghost:hover { background: var(--cobalt-soft); text-decoration: none; }
+  @media (max-width: 560px) {
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6rem;
+    }
+    .actions .btn { text-align: center; padding: 0.75rem 0.5rem; }
+    .actions .btn.primary { grid-column: 1 / -1; }
+    .status {
+      border-radius: 14px;
+      line-height: 1.5;
+      align-items: flex-start;
+    }
+    .status::before { margin-top: 0.35rem; }
+  }
+
+  /* ── Section scaffolding ──────────────── */
+  section { padding: 1.5rem 0 3.25rem; border-top: 1px solid var(--line); }
+  .section-label {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-family: var(--font-mono);
+    font-size: 0.84rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--slate);
+    margin-bottom: 2.5rem;
+  }
+  .section-label::before {
+    content: "";
+    width: 2rem;
+    height: 2px;
+    background: var(--cobalt);
+    flex: none;
+  }
+
+  /* ── Proof strip ──────────────────────── */
+  .proof {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .proof div { background: var(--card); padding: 1.2rem 1.4rem; }
+  .proof strong {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  .proof span { font-size: 0.9rem; color: var(--slate); line-height: 1.4; display: block; }
+
+  /* ── Trajectory (signature) ───────────── */
+  .city {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin: 4.2rem 0 1.8rem;
+  }
+  .section-label + .city { margin-top: 0; }
+  .city h3 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .city .coords { flex: none; }
+  @media (max-width: 560px) {
+    .city {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.3rem;
+    }
+  }
+  .path { position: relative; padding-left: 2rem; }
+  .path::before {
+    content: "";
+    position: absolute;
+    left: calc(0.85rem - 1px);
+    top: 0.6rem;
+    bottom: 0.6rem;
+    border-left: 2px dashed var(--line);
+  }
+  .stop { position: relative; padding-bottom: 2.2rem; }
+  .stop:last-child { padding-bottom: 0.4rem; }
+  .stop::before {
+    content: "";
+    position: absolute;
+    left: -1.55rem;
+    top: 0.45rem;
+    width: 0.8rem; height: 0.8rem;
+    border-radius: 50%;
+    background: var(--paper);
+    border: 2.5px solid var(--cobalt);
+  }
+  .stop.current::before { background: var(--cobalt); animation: pulse-now 2.6s ease-in-out infinite; }
+  .stop .dates { display: block; margin-bottom: 0.25rem; }
+  .stop h4 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .stop .org { color: var(--slate); font-weight: 400; }
+  .stop ul { margin: 0.7rem 0 0; padding-left: 1.1rem; }
+  .stop li { margin-bottom: 0.45rem; color: var(--ink); }
+  .stop li::marker { color: var(--cobalt); }
+  .stop .sub { margin-top: 0.7rem; display: grid; gap: 0.55rem; }
+  .stop .sub p { font-size: 0.97rem; }
+  .stop .sub p b { font-weight: 600; }
+
+  /* ── Skills ───────────────────────────── */
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1.4rem;
+  }
+  .skills h3 {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--cobalt);
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+  }
+  .skills p { font-size: 0.97rem; color: var(--ink); }
+
+  /* ── Education ────────────────────────── */
+  .edu { display: grid; gap: 0.9rem; }
+  .edu p { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; align-items: baseline; }
+  .edu .mono { flex: none; min-width: 8.5rem; }
+
+  /* ── Footer ───────────────────────────── */
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 4.25rem 0 4rem;
+  }
+  footer .big {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    max-width: 24ch;
+    margin-bottom: 1.4rem;
+  }
+  footer .contact-lines { display: grid; gap: 0.4rem; margin-bottom: 2rem; }
+  footer .fineprint { font-size: 0.85rem; color: var(--slate); }
+
+  /* ── Print ────────────────────────────── */
+  @media print {
+    :root {
+      --paper: #fff; --card: #fff; --ink: #000; --slate: #444; --line: #bbb;
+      --cobalt: #2C46C8; --cobalt-soft: #E4E8FA; --live: #1E8A4C;
+    }
+    body { font-size: 10.5pt; }
+    header { padding: 1rem 0; }
+    section { padding: 1rem 0; }
+    .actions { display: none; }
+    .status { border: none; padding: 0; background: none; }
+    .status::before { display: none; }
+    a { color: inherit; }
+    .stop { padding-bottom: 1rem; break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <p class="waypoint-log">
+    <span>LON&nbsp;51.5°N&nbsp;·&nbsp;2004–17</span>
+    <span>TYO&nbsp;35.7°N&nbsp;·&nbsp;2018–22</span>
+    <span class="here">MAD&nbsp;40.4°N&nbsp;·&nbsp;now</span>
+  </p>
+  <h1>Jose María Salas<br><span class="accent">AI, from research to&nbsp;production.</span></h1>
+  <p class="thesis">Technology leader with <strong>20+ years across applied AI, robotics and business intelligence</strong>, building teams and delivering AI, data and BI systems in London, Tokyo and Madrid.</p>
+  <p class="status">available · remote worldwide / hybrid in the UK or Europe · British &amp; Spanish citizen</p>
+  <div class="actions">
+    <a class="btn primary" href="mailto:josema@demadriz.com">Email me</a>
+    <a class="btn ghost" href="https://linkedin.com/in/jmsalas" target="_blank" rel="me noopener noreferrer">LinkedIn</a>
+    <a class="btn ghost" href="https://github.com/jmsalash" target="_blank" rel="me noopener noreferrer">GitHub</a>
+  </div>
+</header>
+
+<main>
+<section class="wrap" aria-label="Highlights">
+  <h2 class="section-label">proof</h2>
+  <div class="proof">
+    <div><strong>2 AI teams built</strong><span>from scratch: robotics R&amp;D in Tokyo, product engineering in Spain</span></div>
+    <div><strong>50+ regulatory reports</strong><span>delivered for Credit Suisse, ultimately managing the Credit Risk Reporting team</span></div>
+    <div><strong>1 patent pending</strong><span>digital sales system for shared art ownership (JP 2022-83057)</span></div>
+    <div><strong>PhD in progress</strong><span>reinforcement learning &amp; active SLAM, Sapienza University of Rome</span></div>
+  </div>
+</section>
+
+<section class="wrap" aria-label="Experience">
+  <h2 class="section-label">trajectory</h2>
+
+  <div class="city"><span class="coords mono">MAD&nbsp;40.4°N</span><h3>Madrid · building with AI</h3></div>
+  <div class="path">
+    <div class="stop current">
+      <span class="dates mono">2021 – now</span>
+      <h4>Independent AI Consultant &amp; Fractional CTO <span class="org">· remote / Madrid</span></h4>
+      <div class="sub">
+        <p><b>Versorum</b> (founder): commercial AI language-learning SaaS built end-to-end (LLM word-by-word alignment engine, AI tutor with live corrections, 220+ graded texts in 16+ languages) · live at <a href="https://versorum.com" target="_blank" rel="noopener noreferrer">versorum.com</a>.</p>
+        <p><b>Revelify</b> (co-founder &amp; CTO): AI-based exercise analysis. Technical roadmap, pose-estimation prototypes (RGB-D + deep learning); recruited and led the engineering team.</p>
+        <p><b>NEO ONE ART</b> (COO &amp; interim CTO, Tokyo): patent-pending digital sales system; secured a ¥1M/month AI + blockchain consultancy contract · built a <a href="https://datastudio.google.com/s/iT-aVj2qT-k" target="_blank" rel="noopener noreferrer">global art-market dashboard</a> on 2.6M auction records.</p>
+        <p><b>Le Wagon Tokyo</b>: lead teacher, Data Science &amp; ML bootcamp.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="city"><span class="coords mono">TYO&nbsp;35.7°N</span><h3>Tokyo · AI &amp; robotics</h3></div>
+  <div class="path">
+    <div class="stop">
+      <span class="dates mono">2020 – 2022</span>
+      <h4>Director of AI &amp; Robotics / Chief Researcher <span class="org">· avatarin (ANA spin-off)</span></h4>
+      <ul>
+        <li>Built the AI &amp; robotics team from scratch and owned R&amp;D strategy for a Japanese Government Moonshot project on Cybernetic Avatar Technology.</li>
+        <li>Imitation learning for robotic manipulators; data-acquisition tooling in Vue.js/React/TensorFlow.js; analytics and dashboards for Sales, Marketing and Finance.</li>
+      </ul>
+    </div>
+    <div class="stop">
+      <span class="dates mono">Jan – Apr 2020</span>
+      <h4>Data Scientist / ML Engineer <span class="org">· ABEJA</span></h4>
+      <ul><li>Computer-vision defect detection for two major Japanese manufacturers (PyTorch, TensorFlow/Keras).</li></ul>
+    </div>
+    <div class="stop">
+      <span class="dates mono">2018 – 2019</span>
+      <h4>Robotics AI Engineer <span class="org">· Telexistence</span></h4>
+      <ul><li>Deep learning for robotic manipulation: glove-to-robot-hand control (DNN), grasp prediction from haptics (LSTM), large-scale object detection (~3,000 objects).</li></ul>
+    </div>
+  </div>
+
+  <div class="city"><span class="coords mono">LON&nbsp;51.5°N</span><h3>London · data &amp; finance</h3></div>
+  <div class="path">
+    <div class="stop">
+      <span class="dates mono">2012 – 2017</span>
+      <h4>Lead BI Developer / Business Analyst (contracts) <span class="org">· Credit Suisse</span></h4>
+      <ul>
+        <li>Led a team of 11 developers delivering 50+ credit-risk regulatory reports, ultimately managing the Credit Risk Reporting team, working directly with Directors and MDs.</li>
+      </ul>
+    </div>
+    <div class="stop">
+      <span class="dates mono">2007 – 2012</span>
+      <h4>BI Technical Architect <span class="org">· independent consultant</span></h4>
+      <ul><li>Enterprise Business Intelligence design and delivery (SAP BusinessObjects) for SAP consultancy services and end clients.</li></ul>
+    </div>
+    <div class="stop">
+      <span class="dates mono">2004 – 2007</span>
+      <h4>Support Engineer, Critical Accounts <span class="org">· Business Objects (SAP)</span></h4>
+      <ul><li>Escalation point for the most critical enterprise accounts; debugged product issues down to code level.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" aria-label="Skills">
+  <h2 class="section-label">toolkit</h2>
+  <div class="skills">
+    <div><h3>AI / ML</h3><p>LLMs &amp; generative AI · PyTorch · TensorFlow/Keras · computer vision · imitation &amp; reinforcement learning</p></div>
+    <div><h3>Engineering</h3><p>Python · JavaScript/Vue.js · SQL · C++ · GCP · AWS · Firebase · ETL &amp; data engineering</p></div>
+    <div><h3>Data &amp; BI</h3><p>Power BI · AWS QuickSight/Athena · SAP BusinessObjects · Streamlit · live: <a href="https://datastudio.google.com/s/iT-aVj2qT-k" target="_blank" rel="noopener noreferrer">art-market</a> &amp; <a href="https://datastudio.google.com/s/ooyiyYx1l9I" target="_blank" rel="noopener noreferrer">Netflix</a> dashboards · <a href="https://art-insights.streamlit.app" target="_blank" rel="noopener noreferrer">Art Insights</a> Streamlit app</p></div>
+    <div><h3>Leadership</h3><p>Team building &amp; mentoring · R&amp;D strategy · product roadmaps · stakeholder management to C-level</p></div>
+  </div>
+</section>
+
+<section class="wrap" aria-label="Education">
+  <h2 class="section-label">education</h2>
+  <div class="edu">
+    <p><span class="mono">2025 – now</span><span><b>PhD, Artificial Intelligence</b> (RL, active SLAM) · Sapienza University of Rome</span></p>
+    <p><span class="mono">2022</span><span><b>MBA Essentials</b> · London School of Economics</span></p>
+    <p><span class="mono">2017 – 2021</span><span><b>MSc, AI and Robotics</b> · Sapienza University of Rome, <i>cum laude</i></span></p>
+    <p><span class="mono">1997 – 2003</span><span><b>BA + MSc, Telecommunication Engineering</b> · Alfonso X El Sabio University, Madrid</span></p>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">
+  <p class="big">Building an AI team, or need one taken further? Let's talk.</p>
+  <div class="contact-lines">
+    <p><a href="mailto:josema@demadriz.com">josema@demadriz.com</a></p>
+    <p><a href="https://linkedin.com/in/jmsalas" target="_blank" rel="me noopener noreferrer">linkedin.com/in/jmsalas</a></p>
+    <p><a href="https://github.com/jmsalash" target="_blank" rel="me noopener noreferrer">github.com/jmsalash</a></p>
+  </div>
+  <p class="fineprint mono">ES native · EN fluent · IT working · FR basic · JA basic · Madrid, remote-first, hybrid-ready across the UK and Europe.</p>
+</footer>
+
+</body>
+</html>
